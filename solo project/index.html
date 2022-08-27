@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+ <div class="container">
+   
+    <div class="home">
+<h2> HOME </h2>
+<p id="home-score"> <span id="home-current-score"> 0 </span> </p>
+<button onclick="add1ToHomeScore()" id="home-score-btn-1">
++ 1
+</button>
+<button  onclick="add2ToHomeScore()" id="home-score-btn-2">
++ 2
+</button>
+<button  onclick="add3ToHomeScore()" id="home-score-btn-3">
++ 3
+</button>
+    </div>
+
+\\
+
+ <button id="reset-btn" onclick="reset()">
+    Reset 
+ </button>
+
+    <div class="guest">
+<h2> GUEST </h2>
+<p id="guest-score"> <span id="guest-current-score"> 0 </span> </p>
+<button onclick="add1ToGuestScore()" id="guest-score-btn-1">
++ 1 
+</button>
+<button onclick="add2ToGuestScore()" id="guest-score-btn-2">
++ 2
+</button>
+<button onclick="add3ToGuestScore()" id="guest-score-btn-3">
++ 3
+</button>
+    </div>
+ </div>   
+
+ <script src="script.js"></script>
+</body>
+</html>

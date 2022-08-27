@@ -1,0 +1,60 @@
+body{
+    background-color: darkblue;
+}
+*{
+    font-family: 'Silkscreen', cursive;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    text-align: center;    
+}
+.home, .guest{
+     width: 500px;
+    height: 500px;
+}
+#home-score, #guest-score{
+ margin-left: auto;
+ margin-right: auto;
+height: 300px;
+width: 300px;
+    background-color: black;
+    color: red;
+    padding: 20px;
+}
+
+h2{
+   background: transparent;
+   color: white;
+   font-size: 80px;
+}
+
+button{
+    height: 50px ;
+    width: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    color: aliceblue;
+    border: aliceblue solid 1px;
+    border-radius: 3%;
+
+}
+
+#home-current-score, #guest-current-score{
+font-size: 220px;
+
+}
+
+#reset-btn{
+
+ margin-top: 350px;
+     height: 50px ;
+    width: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 50px;
+}
